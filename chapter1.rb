@@ -37,6 +37,34 @@ puts "Welcome #{name} !"       #the exclamation point jumps down to the next lin
 puts rand(100)          #(0 : 99)
 puts rand(100) +1         #(1 : 100)
 
-puts 24.to_f
+puts 24.to_f          # to_s -> String       // to_i  -> integer
+
+
+#///////////////////////////////////////
+# Conditionals
+
+
+if  true
+  puts "I won't be printed!"
+end
+
+if ! false
+  puts "I will!"
+end
+
+if false || false
+    puts "I won't!"
+end
+
+if not false
+  puts "I will!"
+end
+
+#
+unless "red" == "red"
+  puts "Go!"
+  else
+  puts "Stop!"
+end
 
 
